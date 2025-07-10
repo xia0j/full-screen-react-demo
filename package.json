@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "author": "zhujun <zhujun@wuxicloud.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "antd": "^5.26.4",
+    "axios": "^1.10.0",
+    "screen-size-react": "^1.0.5",
+    "umi": "^4.4.11"
+  },
+  "devDependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}

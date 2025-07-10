@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// 它的高度由 js 来设
+.scaleParent {
+  position: relative;
+}
+
+// 绝对定位, 让其脱离文档流, 否则会影响 .scaleParent
+.scaleDiv {
+  position: absolute;
+  transform-origin: left top;
+}
+
+.fullIcon {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
