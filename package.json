@@ -11,7 +11,7 @@
   "dependencies": {
     "antd": "^5.26.4",
     "axios": "^1.10.0",
-    "screen-size-react": "^1.0.5",
+    "screen-size-react": "^1.0.7",
     "umi": "^4.4.11"
   },
   "devDependencies": {

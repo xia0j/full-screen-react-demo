@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe D:\Program Files\nodejs\node_global\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\TortoiseGit\bin;C:\Python27;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\Users\zj\AppData\Local\Android\Sdk\tools;C:\Users\zj\AppData\Local\Android\Sdk\platform-tools;C:\Users\zj\AppData\Local\Android\Sdk\emulator;C:\Users\zj\AppData\Local\Android\Sdk\tools\bin;D:\gradle-6.7\bin;node_global\bin;D:\Program Files\nodejs\node_global\node_modules\yarn\bin;D:\Tencent\微信web开发者工具\dll;D:\Program Files\nodejs\node_global\bin;C:\Users\zj\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\PuTTY\;C:\Program Files\dotnet\;C:\Users\zj\AppData\Local\Microsoft\WindowsApps;node_global;C:\Users\zj\AppData\Local\GitHubDesktop\bin;C:\Users\zj\AppData\Local\Microsoft\WindowsApps;node_global\bin;C:\Users\zj\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.18.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\zj\AppData\Local\Yarn\Cache\v6\npm-regenerator-runtime-0.14.1-356ade10263f685dda125100cd862c1db895327f-integrity\node_modules\regenerator-runtime\LICENSE' -> 'D:\guolianWorkspace\github\full-screen-react-demo\node_modules\umi\node_modules\regenerator-runtime\LICENSE'
+
+npm manifest: 
+  {
+    "private": true,
+    "author": "zhujun <zhujun@wuxicloud.com>",
+    "scripts": {
+      "dev": "umi dev",
+      "build": "umi build",
+      "postinstall": "umi setup",
+      "setup": "umi setup",
+      "start": "npm run dev"
+    },
+    "dependencies": {
+      "antd": "^5.26.4",
+      "axios": "^1.10.0",
+      "screen-size-react": "^1.0.6",
+      "umi": "^4.4.11"
+    },
+    "devDependencies": {
+      "@ant-design/icons": "^5.2.6",
+      "@types/react": "^19.0.0",
+      "@types/react-dom": "^18.0.11",
+      "typescript": "^5.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
